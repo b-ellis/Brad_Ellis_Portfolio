@@ -1,0 +1,41 @@
+body{
+	background-image: url("https://static.pexels.com/photos/12613/Life-of-Pix-free-stock-photos-sunset-mountain-lake-snow-BlakeVerdoorn.jpeg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.link-content{
+	margin-bottom: 50px;
+}
+.header-brad{
+	list-style:none;
+	display: inline-block;
+	float:left;
+	text-decoration: none;
+	color: lightgrey;
+    text-shadow: 1px 1px #42342f;
+    font-size: 1.75rem;
+    font-family: 'Crimson Text', serif;
+    padding:25px;
+	margin: 0 auto;
+	height: 55px;
+	text-transform: uppercase;
+}
+.header_brad:hover{
+	color:#dd7a4d;
+}
+.links a{
+	list-style: none;
+	display: inline-block;
+	float: right;
+	text-decoration: none;
+	color: lightgrey;
+    text-shadow: 1px 1px #42342f;
+    font-size: 1.75rem;
+    font-family: "Crimson Text", serif;
+    padding:25px;
+    text-transform: uppercase;
+}
+.links a:hover{
+	color:#dd7a4d;
+}
+
