@@ -1,34 +1,45 @@
 body{
 	background-image: url("https://static.pexels.com/photos/87332/pexels-photo-87332.jpeg");
+	/*image resolution is too high
+	- 6000*4000 - loads very slowly in the browser -
+	 such high reoslutions are not recommended as they terribly slow
+	down websites - probably a bit out of scope now but optimizing continuously
+	is a must as a great engineer :).*/
 	background-size: cover;
 	background-repeat: no-repeat;
 	overflow: auto;
 }
+
 .link-content{
 	margin-bottom: 50px;
 }
+
 .navigation{
 	padding: 50px;
 }
+
 .navigation .links .active{
 	color: #288f97;
 	font-weight: 200;
 }
+
 .links li{
 	list-style: none;
 	display: inline-block;
 	text-decoration: none;
 	color: lightgrey;
 	float: right;
-    text-shadow: 1px 1px #42342f;
-    font-size: 1.75rem;
-    font-family: "Julius Sans One", sans-serif;
-    padding:0 25px 0 25px;
-    text-transform: uppercase;
+  text-shadow: 1px 1px #42342f;
+  font-size: 1.75rem;
+  font-family: "Julius Sans One", sans-serif;
+  padding:0 25px 0 25px;
+  text-transform: uppercase;
 }
+
 .links li:hover{
 	color:#427633;
 }
+
 .current-projects {
 	padding-bottom: 30px;
 	word-spacing: 300px;
@@ -36,9 +47,11 @@ body{
 	margin-left: auto;
 	margin-right: auto;
 }
+
 img{
 	padding-bottom: 30px;
 }
+
 h5{
 	font-family: "Crimson Text", serif;
 	color: lightgrey;
@@ -46,12 +59,13 @@ h5{
 	margin-left: 40px;
 	font-weight: 100;
 }
+
 .social-media .social-logo > li{
 	color:lightgrey;
 	text-align: center;
 	display: inline-block;
 }
+
 .social-logo{
 	text-align: center;
 }
-
